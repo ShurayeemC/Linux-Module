@@ -12,6 +12,7 @@ We’ll use SSH (Secure Shell) to connect to the Bandit server. The username is 
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
 
 You’ll be asked for a password. You can find this on the OverTheWire website or in the challenge instructions.
 
@@ -20,12 +21,14 @@ Once logged in, list the files in the current directory to find the readme file 
 
 ```bash
 ls
+```
 
 ### Step 3: View the contents of the readme file 📖
 Next, read the contents of the readme file to get the password using the cat command:
 
 ```bash
 cat readme
+```
 
 ### Step 4: Save the password for the next level 🔑
 The password for the next level (bandit1) is:
