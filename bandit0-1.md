@@ -15,23 +15,23 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 You’ll be asked for a password. You can find this on the OverTheWire website or in the challenge instructions.
 
-Step 2: List the files in the directory 📂
+### Step 2: List the files in the directory 📂
 Once logged in, list the files in the current directory to find the readme file using this command:
 
 ```bash
 ls
 
-Step 3: View the contents of the readme file 📖
+### Step 3: View the contents of the readme file 📖
 Next, read the contents of the readme file to get the password using the cat command:
 
 ```bash
 cat readme
 
-Step 4: Save the password for the next level 🔑
+### Step 4: Save the password for the next level 🔑
 The password for the next level (bandit1) is:
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-What I Learned 📚
+## What I Learned 📚
 Using SSH for remote access 🌍
 SSH is a secure way to connect to servers. It’s an important skill for anyone working with servers or managing remote systems.
 
